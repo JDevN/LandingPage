@@ -1,3 +1,107 @@
-.header-logo{
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+.header-container,
+.about-container,
+.footer-container {
+    background-color: #1f2937;
+}
+
+/* HEADER CONTAINER  */
+.header-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-container .links a {
+    text-decoration: none;
+}
+
+.header-container .links {
+    display: flex;
+    gap: 15px;
+}
+
+
+.left-content p, .header-container .links a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/* ABOUT CONTAINER */
+
+
+.about-container {
+    border: solid 3px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.about-container .left-content {
+    border: solid 3px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-container .right-content {
+    border: solid 3px white;
+    background-color: gray;
+    padding: 9%;
+    color: white;
+}
+
+.left-content .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+
+}
+
+/* INFORMATION CONTAINER */
+
+.information-container {
+    border: solid 3px black;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.box {
+    border: solid blue;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-container {
+    border: solid 3px black;
+}
+
+.signup-container {
+    border: solid 3px black;
+}
+
+.footer-container {
     border: solid 3px black;
 }
