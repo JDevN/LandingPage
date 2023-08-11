@@ -3,63 +3,92 @@ body {
     flex-direction: column;
 
 }
-.header-container,
-.about-container,
+/* Multiple Container */
+
+.top-container,
 .footer-container {
     background-color: #1f2937;
 }
 
-/* HEADER CONTAINER  */
-.header-container {
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.header-container .links a {
-    text-decoration: none;
-}
-
-.header-container .links {
-    display: flex;
-    gap: 15px;
-}
-
-
-.left-content p, .header-container .links a {
+.left-content p, .top-container .links a {
     font-size: 18px;
     color: #e5e7eb;
 }
 
+/* TOP CONTAINER  */
 
-/* ABOUT CONTAINER */
-
-
-.about-container {
-    border: solid 3px black;
+.top-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    border: solid 3px red;
     flex: 1;
 }
 
-.about-container .left-content {
+
+.top-container .logo {
+
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+
+    width: 400px;
+}
+
+.top-container .links a {
+    text-decoration: none;
+}
+
+.top-container .links {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+
+}
+
+/* ===Header=== */
+
+.top-container .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+    width: 70%;
+    margin: 10px;
     border: solid 3px white;
+
+
+}
+
+/* DASHBOARD */
+
+.top-container .dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin: auto;
+    gap: 52px;
+    width: 70%;
+    border: solid 3px white;
+
+}
+
+/* ===Dashboard Left Content===  */
+
+
+.top-container .left-content {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.about-container .right-content {
-    border: solid 3px white;
-    background-color: gray;
-    padding: 9%;
-    color: white;
+    align-items: start;
+    width: 400px;
+    flex: 1;
+
+
 }
 
 .left-content .title {
@@ -68,6 +97,21 @@ body {
     color: #f9faf8;
 
 }
+
+/* ===Dashboard Right Content=== */
+
+.top-container .right-content {
+    display: flex;
+    border: solid 3px white;
+    background-color: gray;
+    padding: 100px;
+    color: white;
+    width: 400px;
+    flex: 1;
+
+}
+
+
 
 /* INFORMATION CONTAINER */
 
