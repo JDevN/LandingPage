@@ -67,7 +67,7 @@ body {
 
 .top-container .dashboard {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 100px;
     margin: auto;
     gap: 52px;
@@ -81,14 +81,11 @@ body {
 
 .top-container .left-content {
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: start; */
     width: 400px;
-    flex: 1;
-
-
 }
 
 .left-content .title {
@@ -101,13 +98,13 @@ body {
 /* ===Dashboard Right Content=== */
 
 .top-container .right-content {
-    display: flex;
+    /* display: flex; */
     border: solid 3px white;
     background-color: gray;
     padding: 100px;
     color: white;
-    width: 400px;
-    flex: 1;
+    width: auto;
+
 
 }
 
