@@ -95,6 +95,16 @@ body {
 
 }
 
+.dashboard-button {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+}
+
+
 /* ===Dashboard Right Content=== */
 
 .top-container .right-content {
