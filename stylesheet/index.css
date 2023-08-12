@@ -185,12 +185,48 @@ body {
 
 
 
-
 /* SIGNUP CONTAINER */
 
-.signup-container {
-    border: solid 3px black;
+
+
+.signup-button button{
+    background-color: #3882f6;
+    color: white;
+    border: solid 2px white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
 }
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px;
+}
+
+.signup-container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    width: 800px;
+    padding: 20px;
+}
+
+.upper{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+
+
+/* FOOTER CONTAINER */
 
 .footer-container {
     border: solid 3px black;
