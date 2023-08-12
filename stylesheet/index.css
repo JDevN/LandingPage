@@ -160,9 +160,33 @@ body {
 
 /* QUOTE CONTAINER */
 
-.quote-container {
-    border: solid 3px black;
+
+.quote.author {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 45%;
+}
+
+
+
+
+/* SIGNUP CONTAINER */
 
 .signup-container {
     border: solid 3px black;
