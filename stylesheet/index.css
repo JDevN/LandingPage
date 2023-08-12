@@ -22,17 +22,14 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: solid 3px red;
     flex: 1;
 }
 
 
 .top-container .logo {
-
     display: flex;
     font-size: 24px;
     color: #f9faf8;
-
     width: 400px;
 }
 
@@ -41,7 +38,6 @@ body {
 }
 
 .top-container .links {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,9 +54,6 @@ body {
     padding: 10px 15px;
     width: 70%;
     margin: 10px;
-    border: solid 3px white;
-
-
 }
 
 /* DASHBOARD */
@@ -72,7 +65,7 @@ body {
     margin: auto;
     gap: 52px;
     width: 70%;
-    border: solid 3px white;
+
 
 }
 
@@ -80,7 +73,6 @@ body {
 
 
 .top-container .left-content {
-
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +84,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    text-align: left;
 
 }
 
@@ -109,12 +102,10 @@ body {
 
 .top-container .right-content {
     /* display: flex; */
-    border: solid 3px white;
     background-color: gray;
     padding: 100px;
     color: white;
     width: auto;
-
 
 }
 
@@ -123,27 +114,59 @@ body {
 /* INFORMATION CONTAINER */
 
 .information-container {
-    border: solid 3px black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    gap: 32px;
+}
+
+.information-container .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 60px;
     flex-direction: row;
+    padding: 20px;
+
+}
+
+.title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
 
 }
 
 .box {
-    border: solid blue;
+    border: solid #3882f6;
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
 }
 
 .info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
+
+.info .text{
+    margin-top: 8px;
+    text-align: center;
+    width: 100px;
+}
+
+/* QUOTE CONTAINER */
 
 .quote-container {
     border: solid 3px black;
