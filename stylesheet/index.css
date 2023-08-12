@@ -68,7 +68,6 @@ body {
 
 /* ===Dashboard Left Content===  */
 
-
 .top-container .left-content {
     /* display: flex;
     flex-direction: column;
@@ -160,7 +159,6 @@ body {
 
 /* QUOTE CONTAINER */
 
-
 .quote.author {
     font-weight: bold;
     text-align: right;
@@ -186,8 +184,6 @@ body {
 
 
 /* SIGNUP CONTAINER */
-
-
 
 .signup-button button{
     background-color: #3882f6;
@@ -223,11 +219,16 @@ body {
 }
 
 
-
-
-
 /* FOOTER CONTAINER */
 
 .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 3px black;
+    padding: 30px;
+}
+
+.copyright {
+    color: white;
 }
