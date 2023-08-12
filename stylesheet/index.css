@@ -140,21 +140,22 @@ body {
 .box {
     border: solid #3882f6;
     border-radius: 7px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .info {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 150px;
 }
 
 .info .text{
     margin-top: 8px;
     text-align: center;
-    width: 100px;
-    border: solid 3px red;
+    width: 150px;
+
 }
 
 /* QUOTE CONTAINER */
